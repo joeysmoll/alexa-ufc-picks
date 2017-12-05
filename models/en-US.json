@@ -1,9 +1,27 @@
 {
     "interactionModel":{
         "languageModel":{
-            "invocationName":"hello world",
+            "invocationName":"ufc picks",
             "types":[],
             "intents":[
+                {
+                    "intent": "PickIntent",
+                    "slots": [
+                        { 
+                            "name": "fighter", 
+                            "type": "AMAZON.NUMBER" 
+                        }
+                    ] 
+                },
+                {
+                    "intent": "MethodIntent",
+                    "slots": [
+                        { 
+                            "name": "method", 
+                            "type": "METHOD_LIST" 
+                        }
+                    ] 
+                },
                 {
                   "name": "AMAZON.CancelIntent",
                   "samples": []

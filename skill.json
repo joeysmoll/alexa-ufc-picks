@@ -3,14 +3,12 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Sample Short Description",
+          "summary": "make picks, compete against others, prove you're the best",
           "examplePhrases": [
-            "Alexa open hello world",
-            "Alexa tell hello world I am Jeff",
-            "Alexa tell hello world my name is Peter"
+            "Alexa open ufc picks"
           ],
           "name": "UFC-picks",
-          "description": "Sample Full Description"
+          "description": "make your UFC predictions and compete against others"
         }
       },
       "isAvailableWorldwide": true,
